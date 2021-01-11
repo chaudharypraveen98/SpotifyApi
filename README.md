@@ -20,7 +20,13 @@ It is a class based api. It makes multiple get request with the spotify.
 <br>_**operator**_ = spotify provides two type of operator i.e "**OR**" and "**NOT**". NOT operator means exclude it. OR operator means anyone of both.
 <br>**_operator_query_** = means anything you want to exclude or to make an option.
 example :-
-<br>`spotify.search(Tony, operator=not, operator_query=Kakkar, search_type="artist")`
+<br>`songs=spotify.search("Tony", operator="not" , operator_query="Kakkar", search_type="artist")`
 <br> The above code will search for tony but it will neglect the results which contains the Kakkar in their title.
 2. You can even search for the track in the similar way for track. Example :-
 <br>`spotify.search(Time, search_type="track")`
+
+**Note : -**
+<br>You can use this Spotify Api Client without any issue. Feel free to suggest changes.
+
+**Last Test : -**
+<br>12 January 2021
