@@ -1,8 +1,10 @@
 # SpotifyApi
 It is a class based api. It makes multiple get request with the spotify.
+
 <br>
 <img src="spotify.JPG" alt="preview">
 <br>
+
 #### How to setup the Api :-
 1. First install requirements.txt by :-
 `python3 install -r requirements.txt`
